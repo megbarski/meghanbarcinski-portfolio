@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meghan Barcinski</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/ff6465a70b.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div class="box">
+        <h2>MEGHAN BARCINSKI</h2>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">about me</a>
+            <a href="photo.html">photography</a>
+            <a href="video.html">videography</a>
+            <a href="design.html">graphic design</a>
+            <a href="clients.html">clients</a>
+            <a href="contact.html">contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+              </a>
+        </nav>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <h1>About Me</h1>
+    <article>
+    <div class="mainbody">
+        <img src="images/meghan_headshot.jpg" class="myImage" alt="Meghan Barcinski" width="500px" height="500px">
+        <p>My name is Meghan Barcinski and I am currently pursuing a Master of Science in Web Design and Development at the University of Denver. In May of 2020, I graduated from Mays Business School at Texas A&M University with a Bachelor of Business Administration in Marketing focused on Advertising Strategy. I am currently seeking full-time employment in a marketing, content creation, or graphic design role.</p>
+        <p>Throughout my time at A&M, I have gotten involved in a variety of organizations and clubs. I was a member of Kappa Alpha Theta, serving on the encouragement and media committees during my time. I was a member and a counselor for the freshman leadership organization, Aggie Fish Club. I also served as the director of media and design for Aggie Miracle. I was a marketing and production specialist for Mays MasterCast podcast as well as a Marketing Student Assistant for the Public Partnership and Outreach Office at Texas A&M.
+            I have a passion for design, photography, and videography, and hope to utilize these in my career and my life. I love traveling, being outside, exploring, and spending time with my family, friends, and my dog.</p>
+    </div>
+    </article>
+</body>
+<footer class="resume">
+    <a href="MEB_Resume.pdf" class="button button-primary" download>My Resume</a>
+    <div class="bottom">
+    </div>
+</footer>
+</html>
